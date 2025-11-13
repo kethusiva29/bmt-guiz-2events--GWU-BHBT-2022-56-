@@ -2,148 +2,147 @@
 
 const events = [
     {
-        title: "Opening Keynote: The Future of AI",
+       title: "Opening Keynote: The Future of Biomedical Engineering",
         type: "Keynote",
         date: "2025-11-20T09:00:00",
-        description: "Join industry visionary Dr. Evelyn Reed as she unveils the next decade of AI innovation.",
-        image: "images/keynote.jpg"
+        description: "Dr. Aisha Fernando explores upcoming innovations in medical technology, bio-robotics, and healthcare AI.",
+        image: "download (1).webp"
     },
     {
-        title: "Advanced JavaScript Workshop",
+        title: "Workshop: 3D Printing in Prosthetics Design",
         type: "Workshop",
         date: "2025-11-20T10:30:00",
-        description: "A 3-hour, hands-on deep-dive into asynchronous JavaScript, Promises, and modern ES6+ features.",
-        image: "images/workshop-js.jpg"
+        description: "Hands-on session on designing and fabricating custom prosthetics using advanced biocompatible materials.",
+        image: "download.webp"
     },
     {
-        title: "Cybersecurity in the Cloud Era",
+        title: "Talk: AI in Medical Imaging",
         type: "Talk",
         date: "2025-11-20T11:00:00",
-        description: "Explore the evolving landscape of cloud security threats and proactive defense strategies.",
-        image: "images/cybersecurity.jpg"
+        description: "A deep dive into how AI algorithms are transforming diagnostics in radiology and pathology.",
+        image: "OIF.webp"
     },
     {
-        title: "Introduction to Quantum Computing",
+        title: "Talk: Innovations in Bio-Sensor Technology",
         type: "Talk",
         date: "2025-11-20T14:00:00",
-        description: "A beginner-friendly overview of quantum mechanics and its potential to revolutionize computing.",
-        image: "images/quantum.jpg"
+        description: "Discover the latest trends in wearable sensors and real-time patient monitoring systems.",
+        image: "OIP (1).webp"
     },
     {
         title: "Networking Mixer & Welcome Reception",
         type: "Social",
         date: "2025-11-20T17:00:00",
-        description: "Connect with fellow attendees, speakers, and sponsors over drinks and appetizers.",
-        image: "images/mixer.jpg"
+        description: "Meet biomedical engineers, researchers, and healthcare professionals over refreshments.",
+        image: "OIp.(2)webp"
     },
 
     {
-        title: "The Ethics of Machine Learning",
-        type: "Talk",
+        title: "Panel: Ethics in Biomedical Research",
+        type: "Panel",
         date: "2025-11-21T09:30:00",
-        description: "A critical discussion on the societal impact and ethical responsibilities in ML development.",
-        image: "images/ethics.jpg"
+        description: "Experts discuss data privacy, human testing, and ethical dilemmas in medical innovation.",
+        image: "OIP (3).webp"
     },
     {
-        title: "Building Scalable Web Apps with Microservices",
+        title: "Talk: Tissue Engineering and Regenerative Medicine",
         type: "Talk",
         date: "2025-11-21T10:30:00",
-        description: "Learn the principles of microservices from lead engineers at a top tech company.",
-        image: "images/scalable.jpg"
+        description: "An overview of advances in growing functional tissues and organs for transplantation.",
+        image: "OIP (4).webp"
     },
     {
-        title: "Mastering React Performance",
+        title: "Workshop: Embedded Systems for Medical Devices",
         type: "Workshop",
         date: "2025-11-21T13:00:00",
-        description: "Optimize your React applications by learning memoization, code splitting, and bundle analysis.",
-        image: "images/react.jpg"
+        description: "Learn how microcontrollers are used in pacemakers, infusion pumps, and diagnostic instruments.",
+        image: "OIP.webp"
     },
     {
-        title: "The Psychology of User Experience (UX)",
+        title: "Talk: The Psychology of Patient-Centered Design",
         type: "Talk",
         date: "2025-11-21T14:00:00",
-        description: "Understand the cognitive biases and psychological principles that drive effective UX design.",
-        image: "images/psychology-ux.jpg"
+        description: "Explore human factors engineering and empathy-driven healthcare product design.",
+        image: "th (1).webp"
     },
     {
-        title: "Panel: The Future of Remote Work in Tech",
+        title: "Panel: The Future of Smart Hospitals",
         type: "Panel",
         date: "2025-11-21T16:00:00",
-        description: "Industry leaders discuss the challenges, tools, and culture of building successful remote-first teams.",
-        image: "images/panel-remote.jpg"
+        description: "Industry experts discuss IoT integration, telemedicine, and automation in modern hospitals.",
+        image: "th (2).webp"
     },
 
     {
-        title: "UI/UX Design Fundamentals for Developers",
+        title: "Workshop: Biomedical Signal Processing with MATLAB",
         type: "Workshop",
         date: "2025-11-22T09:00:00",
-        description: "A practical workshop on visual hierarchy, color theory, and typography that every developer should know.",
-        image: "images/ui-ux.jpg"
+        description: "A practical session on analyzing ECG, EEG, and EMG signals using advanced tools.",
+        image: "th (3).webp"
     },
     {
-        title: "From Monolith to Serverless",
+        title: "Talk: Advances in Drug Delivery Systems",
         type: "Talk",
         date: "2025-11-22T10:00:00",
-        description: "A case study on migrating a large-scale legacy application to a modern serverless architecture.",
-        image: "images/serverless.jpg"
+        description: "Explore how nanotechnology is reshaping targeted and controlled drug delivery methods.",
+        image: "th.webp"
     },
     {
-        title: "State of Web Assembly in 2025",
+        title: "Talk: Biomedical Robotics and Microdevices",
         type: "Talk",
         date: "2025-11-22T11:30:00",
-        description: "Discover how WebAssembly is enabling near-native performance for web applications.",
-        image: "images/webassembly.jpg"
+        description: "Learn about cutting-edge biomedical robots used in minimally invasive surgery and diagnostics.",
+        image: "th (3).webp"
     },
     {
-        title: "Data Visualization with D3.js",
+        title: "Workshop: Data Visualization in Healthcare",
         type: "Workshop",
         date: "2025-11-22T13:30:00",
-        description: "Learn to create stunning, interactive data visualizations for the web from scratch.",
-        image: "images/d3.jpg"
+        description: "Master tools for visualizing clinical and research data effectively.",
+        image: "images/wearable.jpg"
     },
     {
-        title: "Closing Panel: Ask Me Anything with Speakers",
+        title: "Closing Panel: The Next Decade of Biomedical Engineering",
         type: "Panel",
         date: "2025-11-22T16:00:00",
-        description: "An open Q&A session with a panel of the conference's top speakers. No topic is off-limits!",
-        image: "images/panel-ama.jpg"
+        description: "Final reflections and open discussion with the conference’s top speakers and researchers.",
+        image: "th (3).webp"
     },
 
-
     {
-        title: "Pre-Conference Hackathon",
+        title: "Pre-Conference Research Hackathon",
         type: "Social",
         date: "2025-11-19T09:00:00",
-        description: "A 24-hour coding challenge with prizes for the most innovative projects. Kicks off before the main event.",
+        description: "A 24-hour biomedical innovation challenge for students and researchers to create health tech prototypes.",
         image: "images/hackathon.jpg"
     },
     {
-        title: "API Design Best Practices",
+        title: "Talk: Bioinformatics in Precision Medicine",
         type: "Talk",
         date: "2025-11-21T15:00:00",
-        description: "Learn how to design, document, and maintain clean, consistent, and easy-to-use RESTful APIs.",
-        image: "images/api.jpg"
+        description: "Explore how data science and bioinformatics enable personalized treatment strategies.",
+        image: "images/bioinformatics.jpg"
     },
     {
-        title: "DevOps Culture and Tooling",
+        title: "Talk: Medical Device Regulations and Safety",
         type: "Talk",
         date: "2025-11-20T15:30:00",
-        description: "An introduction to the principles of DevOps and the tools that enable continuous integration and deployment.",
-        image: "images/devops.jpg"
+        description: "Understand compliance, certification, and safety testing in biomedical device manufacturing.",
+        image: "images/regulation.jpg"
     },
     {
-        title: "Mobile-First Design in Practice",
+        title: "Workshop: Wearable Health Technology",
         type: "Workshop",
         date: "2025-11-20T13:00:00",
-        description: "A hands-on session focusing on practical techniques for designing and building mobile-first responsive websites.",
-        image: "images/mobile-first.jpg"
+        description: "Design and prototype smart wearable devices that monitor vital health parameters.",
+        image: "images/wearable.jpg"
     },
     {
         title: "Closing Ceremony & Awards",
         type: "Social",
         date: "2025-11-22T17:30:00",
-        description: "Join us as we celebrate the best of the conference and announce the hackathon winners.",
-        image: "images/awards.jpg"
+        description: "Celebrate the best biomedical innovations and recognize outstanding participants.",
+        image: "OIF.webp"
     }
 ];
 

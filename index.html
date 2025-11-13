@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechCon 2025</title>
+  <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <script src="main.js"></script>
+  <button data-filter="all" class="active">All</button>
+<button data-filter="talk">Talks</button>
+<button data-filter="workshop">Workshops</button>
+<header class="site-header">
+    <div class="container header-inner">
+      <h1>TechCon 2025 — Event Schedule</h1>
+
+      <div class="controls" aria-hidden="false">
+        <div class="filters" role="tablist" aria-label="Filter events">
+          <button class="filter-btn active" data-type="All" role="tab" aria-selected="true">All</button>
+          <button class="filter-btn" data-type="Talk" role="tab">Talks</button>
+          <button class="filter-btn" data-type="Workshop" role="tab">Workshops</button>
+          <button class="filter-btn" data-type="Panel" role="tab">Panels</button>
+          <button class="filter-btn" data-type="Social" role="tab">Social</button>
+        </div>
+
+        <label class="search-label">
+          <input id="search" type="search" placeholder="Search events..." aria-label="Search events">
+        </label>
+
+        <button id="theme-toggle" aria-pressed="false" aria-label="Toggle dark/light theme">🌓</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="announce" class="sr-only" aria-live="polite"></div>
+    <section id="event-container" class="grid" aria-live="polite" aria-label="Event list"></section>
+  </main>
+
+  <footer class="site-footer container">
+    <small>&copy; 2025 TechCon • Built by KAMSHATHVANY. Do not delete this repository before Feb 2026.</small>
+  </footer>
+</body>
+</html>
